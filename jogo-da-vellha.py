@@ -1,5 +1,6 @@
+#teste de alteração
 from random import randrange
-
+print("Teste de alteracao")
 
 def display_board(board):
 	print("+-------" * 3,"+", sep="")
@@ -12,7 +13,7 @@ def display_board(board):
 		print("+-------" * 3,"+",sep="")
 
 
-def enter_move(board):
+def enter_move(board):''
 	ok = False	# suposição falsa - precisamos dela para entrar no loop
 	while not ok:   
 		move = input("Digite seu movimento: ") 
